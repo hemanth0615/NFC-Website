@@ -1,0 +1,452 @@
+.AssetmanagementProducts_body1 {
+    position: relative;
+    top: 80px;
+ 
+    max-width: 100%;
+   left: 0%;
+  
+}
+
+.product_individual_product {
+        position: absolute;
+            left: 6.67%;
+            right: 81.32%;
+            top: 4.89%;
+            bottom: 94.46%;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -0.01em;
+            color: #0F5A99;
+            height: 25.344499588012695px;
+            width: 473px;
+            border-radius: nullpx;
+}
+.product_individual_productdescription{
+        position: absolute;
+            left: 6.67%;
+            right: 58.19%;
+            top: 70.01%;
+            bottom: 86.65%;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 72px;
+            /* or 150% */
+            letter-spacing: -0.04em;
+            color: #262626;
+            /* height: 288px; */
+            width: 44%;
+            border-radius: nullpx;
+}
+
+.product_individual_productdescription1{
+    position: absolute;
+        left: 6.67%;
+        right: 62.99%;
+        top: 280px;
+        bottom: 83.81%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        /* or 178% */
+        letter-spacing: -0.01em;
+        color: #696E7A;
+        height: 96px;
+            width: 437px;
+            border-radius: nullpx;
+}
+.product_individual_productimage{
+    position: absolute;
+        left: 48.83%;
+        top: 6.47%;
+        max-width: 100%;
+
+}
+.knowmorebutton{
+    position: relative;
+        left: 6.67%;
+        /* right: 82.5%; */
+        top: 410.58px;
+        bottom: 81.77%;
+}
+.products_knowmore{
+        border: none;
+        background: #007BFF;
+        /* height: 64.51326751708984px; */
+        width: 156px;
+        color: #FFFFFF;
+        padding-top: 15px;
+        border-radius: 0px;
+        z-index: 5;
+}
+.AssetmanagementProducts_body2{
+    position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        right: 0%;
+        top: 109%;
+        bottom: 48.41%;
+        background: #BFDEF9;
+        opacity: 0.5;
+        /* margin-top: 10%; */
+}
+.product_individual_productdescription_body2{
+    position: absolute;
+        left: 28.75%;
+        right: 28.75%;
+        top: 7%;
+        bottom: 75.71%;
+    
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        /* or 160% */
+    
+        text-align: center;
+    
+        color: #000000;
+}
+.body2_video{
+    position: absolute;
+        width: 65%;
+        height: 55%;
+        left: 17.5%;
+        top: 25%;
+        background: rgba(23, 23, 23, 0.36);
+}
+.AssetmanagementProducts_body3{
+    position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 200%;
+        background: #F9F9F9;
+        
+        
+}
+html body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.product_individual_features_text{
+    position: absolute;
+        left: 45%;
+        right: 45%;
+        top: 10%;
+        bottom: 85.84%;
+    
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 32px;
+        /* identical to box height, or 100% */
+    
+        letter-spacing: 0.02em;
+    
+        color: #262626;
+}
+.product_individual_features_description{
+    position: relative;
+        left: 21.39%;
+        right: 21.39%;
+        top: 17.27%;
+        bottom: 74.42%;
+    
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        /* or 178% */
+    
+        text-align: center;
+    
+        color: #696E7A;
+        height: 64px;
+            width: 824px;
+            border-radius: nullpx;
+}
+.product_individual_features_image{
+    position: absolute;
+        left: 43.29%;
+        right: 43.25%;
+        top: 24.86%;
+        bottom: 61.27%;
+}
+.product_individual_features_name{
+    position: absolute;
+        left: 14.75%;
+        right: 14.5%;
+        top: 48.94%;
+        bottom: 44.09%;
+    
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: -0.03em;
+    
+        color: #262626;
+}
+
+.product_individual_features_name_description{
+position: absolute;
+    left: 8.5%;
+    right: 8.44%;
+    top: 60.05%;
+    bottom: 16.7%;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #64607D;
+}
+
+
+/* Features Cards */
+.products_individual_features_cards{
+    position: absolute;
+    top: 230%;
+    max-width: 100%;
+    left: 8%;
+    display:flex;
+    justify-content: center;
+   
+column-gap: 2%;
+
+  
+}
+
+.products_individual_features_card1{
+    position: relative;
+    background: #FFFFFF;
+        border-radius: 20px;
+        height: 387px;
+        width: 400px;
+        border-radius: 20px;
+}
+.products_individual_features_card2 {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    height: 387px;
+    width: 400px;
+    border-radius: 20px;
+}
+.products_individual_features_card3 {
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 20px;
+    height: 387px;
+    
+    width: 400px;
+    border-radius: 20px;
+}
+.product_individual_features_card_image{
+    position: absolute;
+        left: 43.29%;
+        top: 21.86%;
+        background: #007BFF;
+        border-radius: 31px;
+}
+.product_individual_features_card_name{
+position: absolute;
+    left: 14.75%;
+    right: 14.5%;
+    top: 48.94%;
+    bottom: 44.09%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #262626;
+    height: 27px;
+        width: 100%;
+        left: 2%;
+        top: 169.37890625px;
+        border-radius: nullpx;
+} 
+.product_individual_features_card_name_description{
+position: absolute;
+    left: 8.5%;
+    right: 8.44%;
+    top: 58.05%;
+    bottom: 16.7%;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #64607D;
+    height: 90px;
+        width: 332.226318359375px;
+
+        border-radius: nullpx;
+}
+/* AssetmanagementProducts_body4 */
+.AssetmanagementProducts_body4{
+    position: absolute;
+    top: 300%;
+    width: 100%;
+    height: 100%;
+    background: #0A3E69;
+}
+.product_individual_moreproducts_text{
+        position: absolute;
+        left: 6.67%;
+        top: 15.61%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 44px;
+        /* identical to box height */
+    
+        letter-spacing: -0.04em;
+    
+        color: #FFFFFF;
+}
+.product_individual_moreproducts_description{
+    position: absolute;
+        left: 6.67%;;
+        top: 26.18%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        /* or 178% */
+        color: #A5AEC5;
+        height: 64px;
+        width: 650px;
+        border-radius: nullpx;
+}
+.moreproducts_line{
+    position: absolute;
+        left: 6.67%;
+        right: 6.67%;
+        top: 41.46%;
+        bottom: 58.54%;
+    
+        border: 1px solid #494949;
+}
+.moreproducts_card1{
+    position: absolute;
+    top: 50%;
+    left: 6.67%;
+}
+.moreproducts_card2 {
+    position: absolute;
+    top: 50%;
+    left: 36.67%;
+}
+.moreproducts_card3 {
+    position: absolute;
+    top: 70%;
+    left: 6.67%;
+}
+.moreproducts_card4 {
+    position: absolute;
+    top: 70%;
+    left: 36.67%;
+}
+
+.product_individual_moreproducts_card_name{
+    position: absolute;
+        left: 110px;
+        right: 7.25%;
+        top: 34.15%;
+        bottom: 32.93%;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+        height: 27px;
+        width: 265px;
+        border-radius: nullpx;
+}
+/* contactus */
+.products_individual_contactus{
+    position: absolute;
+    top: 380%;
+    width: 100%;
+    height: 347px;
+    background:url("../../images/contactus_bg.png");
+}
+.contactus_text{
+    position: absolute;
+        width: 175px;
+        height: 44px;
+        left: 632px;
+        top: 62px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        color: #FFFFFF;
+}
+.contactus_text_description{
+    position: absolute;
+        width: 519px;
+        height: 26px;
+        left: 460px;
+        top: 122px;
+    
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        /* identical to box height, or 144% */
+    
+        text-align: center;
+    
+        color: #FFFFFF;
+}
+.contactus_button{
+    position: absolute;
+        width: 1440px;
+        height: 347px;
+        left: 0px;
+        top: 0px;
+        border: none;
+        background: #077FFF;
+}
+.products_individual_footer{
+    position: absolute;
+    top: 400%;
+    width: 100%;
+}

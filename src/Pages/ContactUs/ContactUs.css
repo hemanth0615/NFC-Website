@@ -1,0 +1,297 @@
+.contactimg{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    z-index: 0;
+}
+
+.Cheading{
+    width: 260px;
+    height: 65px;
+    position: relative;
+    top: 260px;
+    left: 41.2%;
+}
+.Cheading>h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+}
+.conversation{
+    width: 82%;
+    height: 1065px;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    top: 360px;
+    left: 7%;
+    border-radius: 16px;
+}
+.conversation>h1{
+    width: 40%;
+    height: 45px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    color: #007BFF;
+    position: relative;
+    top: 9%;
+    left: 37%;
+}
+.conversation>p{
+    width: 825px;
+    height: 64px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 16%;
+}
+label{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+}
+.firstname{
+    position: relative;
+    top: 180px;
+    left: 18%;
+}
+.firstnameinput{
+    width: 30%;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #D2D6DA;
+    position: relative;
+    top: 200px;
+    left: 18%;
+}
+.lastname{
+    position: relative;
+    top: 100px;
+    left: 52%;
+}
+.lastnameinput{
+    width: 30%;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #D2D6DA;
+    position: relative;
+    top: 115px;
+    left: 52%;
+}
+.mail{
+    position: relative;
+    top: 145px;
+    left: 18%;
+}
+.mailinput{
+    width: 64%;
+    height: 60px;
+    position: relative;
+    top: 160px;
+    left: 18%;
+    border-radius: 8px;
+    border: 1px solid #D2D6DA;
+}
+.subject{
+    position: relative;
+    top: 190px;
+    left: 18%;
+}
+.subjecttext{
+    position: relative;
+    top: 200px;
+    left: 18%;
+    width: 64%;
+    height: 60px;
+    border: 1px solid #D2D6DA;
+    border-radius: 8px;
+}
+.message{
+    position: relative;
+    top: 225px;
+    left: 18%;
+}
+.messagetext{
+    position: relative;
+    top: 240px;
+    left: 18%;
+    width: 64%;
+    height: 142px;
+    border: 1px solid #D2D6DA;
+    border-radius: 8px;
+}
+.accept{
+    position: relative;
+    top: 245px;
+    left: 20%;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+}
+.submitbtn{
+    width: 400px;
+    height: 50px;
+    background: #007BFF;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    border: 1px solid #007BFF;
+    position: relative;
+    top: 300px;
+    left: 36%;
+}
+.Contsect-1{
+    position: absolute;
+    top: 6.5%;
+    width: 100%;
+    z-index: 0;
+    
+    
+}
+
+.Contsect-2{
+    position: absolute;
+    top: 64.6%;
+    background-color: #F5F6F8;
+    width: 100%;
+    height: 820px;
+}
+.Contsect-3{
+    position: absolute;
+    top: 138%;
+    background-color: rgba(250, 251, 255, 1);
+   
+    height: 817px;
+    width: 100%;
+}
+.infodiv{
+    width: 506px;
+    height: 617px;
+    background-color:beige;
+    
+
+   
+    position: relative;
+    top: 100px;
+    left: 7%;
+}
+.ourlocation{
+    width: 30%;
+    height: 45px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    color: #007BFF;
+    position: relative;
+    top: 50px;
+    left: 43%;
+}
+.usa{
+    width: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    position: relative;
+    top: 30px;
+    left: 5%;
+}
+.address{
+    width: 205px;
+    height: 115px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    position: relative;
+    top: 10px;
+    left: 2%;
+    color: #9A9A9A;
+    line-height: 28px;
+
+}
+.radio{
+    position: relative;
+    top: 250px;
+    left: 19%;
+    width: 20px;
+    height: 20px;
+}
+.Cinfo{
+    width: 170px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    position: relative;
+    bottom: 106px;
+    left: 55%;
+    color: #9A9A9A;
+    line-height: 28px;
+}
+.Footer2{
+    width: 100%;
+    position: absolute;
+    top: 320%;
+}
+#accordion{
+    width: 506px;
+    width: 617px;
+    background-color: rgba(250, 251, 255, 1);
+
+    position: relative;
+    top: 100px;
+}
+#accordion li{
+    list-style: none;
+    width: 80%;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+}
+#accordion li label{
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+}
+#accordion label + input[type="radio"]{
+    display: none;
+}
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+.call-bio{
+    margin-left: -6%;
+}
+.lF{
+    position: absolute;
+    top: 300%;
+    width: 100%;
+}
+@media (max-width:1540px){
+    .conversation{
+        top: 360px;
+left: 8.5%;
+    }
+}

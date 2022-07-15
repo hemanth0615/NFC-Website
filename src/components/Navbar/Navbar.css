@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    max-width: 100%;
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-right:7%;
+    padding-left:4%;
+    padding-bottom: 5.3%;
+  }
+  .logo{
+    max-width: 100%;
+    height: 62px;
+    margin-left: 27%;
+  }
+  .rotate {
+      -moz-transition: all .5s linear;
+      -webkit-transition: all .5s linear;
+      transition: all .2s linear;
+      width: 20px;
+    height: 22px;
+  margin-left: -10px;
+  margin-top: 3px;
+  font-weight: 900;
+  }
+  .rotate:hover{
+      color: #2D2A2B;
+  }
+  
+  .rotate.down {
+     
+      transform:rotate(180deg);
+      
+  }
+  
+  .menu {
+    display: flex;
+  max-width: 75%;
+    justify-content: center;
+    align-items: center;
+   
+   margin-right: 1%;
+  }
+  
+  
+  .down-icons{
+    max-width: 20px;
+    max-height: 22px;
+  margin-left: -10px;
+  margin-top: 3px;
+  font-weight: 900;
+  
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .bar {
+    padding: 0px 20px 0px 20px;
+  }
+  
+  .bar a {
+      font-weight: 600;
+      font-size: 17px;
+      color: rgba(45, 42, 43, 1);
+  }
+  /* @keyframes move1{
+      0% {transform: rotate(0deg);}
+      100% {transform: rotate(180deg);}
+  } */
+  
+  /* @keyframes move1{
+      0% {transform: rotate(0turn);}
+      100% {transform: rotate(1.5turn);}
+  } */
+  
+  /* @keyframes move2 {
+      from {transform: rotate(180deg);}
+      to {transform: rotate(360deg);}
+  } */
+  
+  /* @keyframes move2 {
+      from {transform: rotate(0.5turn);}
+      to {transform: rotate(0turn);}
+  } */
+  
+  .bar a{
+      text-decoration: none;
+      color: black;
+      cursor:pointer;
+  }
+  
+  .bar a:hover{
+      color: #007BFF;
+      background-color: white;
+      transition: all .2s linear;
+  
+     
+  }
+  
+  .nfc-icon:hover{
+      background-color: #fff;
+  
+  }
+  .navcontact-btn{
+    min-width: 135px;
+    color: #007BFF;
+    max-height: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid #007BFF;
+  
+    padding-top: 12px;
+    padding-bottom: 35px;
+    font-weight: 900;
+    font-size: 17px;
+    border-radius: 8px;
+    transition: 0.2s;
+    border: 2.3px solid #007BFF;
+  }
+  
+  .flex:hover{
+    color: #007BFF;
+  }
+  .navcontact-btn:hover{
+      color: #FFFFFF;
+      background-color: #007BFF;
+      cursor: pointer;
+  }
+  
+  .companydrop{
+      width: 15.5%;
+      max-height: 100px;
+      padding: 10px 0px 10px 10px;
+      line-height: 15px;
+      background-color: #FFFFFF;
+      border-radius: 20px;
+      position: absolute;
+      font-size: 17px;
+      font-weight: 800;
+      left: 23%;
+      top:9.6%;
+      display: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      z-index: 4;
+  }
+  .drop3 a:hover{
+      background-color: #fff;
+  
+  }
+  .drop1 a:hover{
+      background-color:#ffff;
+  }
+  .drop2 a:hover{
+      background-color:#ffff;
+  }
+  .drop2,.drop3{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  
+  }
+  .drop1{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  
+  .nav-right{
+      width: 15px;
+      height: 16px;
+  display: none;
+  transition: all .2s linear;
+  margin-left: -9px;
+  }
+  .drop1:hover .nav-right{
+      display: block;
+      color: #007BFF;
+  }
+  .drop3:hover .nav-right{
+      display: block;
+      color: #007BFF;
+  }
+  .drop2:hover .nav-right{
+      display: block;
+      color: #007BFF;
+  }
+  
+  
+  .Customers a , .Foundation a , .Careers a{
+      cursor: default;
+      background-color: #fff;
+  }
+  
+  .Customers a :hover , .Foundation a:hover , .Careers a:hover{
+      color: #2D2A2B;
+  }
+  
+  .companydrop a{
+      text-decoration: none;
+      color: #2D2A2B;
+      cursor: default;
+  }
+  
+  .companydrop a:hover{
+      color: #007BFF;
+  }
+  
+  .drop1{
+      padding: 2px;
+      margin: 2px;
+  }
+  
+  .productdrop{
+      width: 26%;
+      height: 254px;
+      padding: 8px 0px 10px 10px;
+      line-height: 12px;
+    font-size: 17px;
+    font-weight: 800;
+      background-color: #FFFFFF;
+      border-radius: 20px;
+      position: absolute;
+      left: 30%;
+      top: 10%;
+      display: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      z-index: 3;
+  }
+  a{
+    text-decoration: none;
+  }
+  .drop2{
+      padding: 6px;
+      margin: 2px;
+      margin-bottom: 5px;
+  }
+  
+  .productdrop a{
+      text-decoration: none;
+      color: #2D2A2B;
+      cursor: default;
+  }
+  
+  .productdrop a:hover{
+      color: #007BFF;
+  }
+  /* .row2{
+      position: relative;
+      width: 40%;
+      
+  } */
+  .serviceedrop{
+      width: 63%;
+      max-height: 300px;
+      background-color: #FFFFFF;
+      padding: 16px 0px 10px 10px;
+      line-height: 25px;
+      font-size: 17px;
+      font-weight: 700;
+      border-radius: 20px;
+      position: absolute;
+      left: 25%;
+      top: 10%;
+      z-index: 3;
+      display: flex;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  
+  
+  }
+ .sys{
+    width: 120%;
+ }
+  .system-flex{
+      display: flex;
+      gap: 5%;
+      justify-content: flex-start;
+      
+  }
+  .sys-right{
+    margin-top: 6px;
+  }
+  .row_2{
+      padding-left: 6%;
+      width: 43%;
+      
+  }
+  .row_1{
+      width: 35%;
+  }
+  .row_3{
+    width: 22%;
+  }
+  
+  .serviceedrop a{
+      text-decoration: none;
+      color: #2D2A2B;
+      cursor: default;
+  }
+  
+  .serviceedrop a:hover{
+      color: #007BFF;
+  }

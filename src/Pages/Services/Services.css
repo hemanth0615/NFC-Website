@@ -1,0 +1,285 @@
+.service-bg{
+  width: 100%;
+ 
+
+  position: relative;
+
+}
+.serviceoverlay{
+  position: absolute;
+  top: 11%;
+  background:  rgba(0, 0, 0, 0.5);
+width: 100%;
+  height: 106.6%;
+}
+.servicepage-intro{
+  margin-top: 2.5%;
+}
+.sec-info{
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+ width: 68%;
+ line-height: 44px;
+ margin-left: 18%;
+ margin-top: 4.7%;
+ margin-bottom: 3.3%;
+
+}
+.career-page-info{
+  width: 47%;
+  margin-left: 27%;
+}
+.founder{
+  font-weight: 600;
+  font-size: 20px;
+}
+.cover-intro{
+  /* background-color: aquamarine; */
+  width: 90%;
+ margin-left: 6.4%;
+  padding:55px 20px 60px 5px ;
+  height: 402px;
+  box-shadow: 0px 16px 19px rgba(0, 0, 0, 0.07);
+  margin-bottom: 6%;
+  background-color: #ffff;
+
+  
+}
+.cover-title{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+ margin-bottom: 13%;
+ color: #ffff;
+}
+.cover{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  position: absolute;
+  top:53%;
+  left: 1%;
+}
+.markup{
+  position: absolute;
+  top:66%;
+  right:13%;
+}
+.markdown{
+  position: absolute;
+  top:52%;
+  left:17%
+}
+.service-icon{
+  width: 39px;
+  height: 39px;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+.service-info{
+  font-size: 24px;
+  font-weight: 700;
+  width: 80%;
+  color: rgba(45, 42, 43, 1);
+}
+
+.column1{
+  background-color: #ffff;
+  min-width: 40%;
+  height: 202px;
+padding-top: 3%;
+padding-left: 4%;
+}
+.service-intro{
+  display: flex;
+  gap: 3%;
+  margin-top: 16%;
+  margin-left: -5%;
+ 
+}
+.oracle-arrow{
+  margin-top: 20%;
+}
+.quality{
+  max-width: 50%;
+}
+
+.custom{
+  
+max-width: 20%;
+}
+.service-title{
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  margin-left: 25%;
+  color: #ffff;
+}
+.top{
+  position: absolute;
+  top:49%;
+  left: 16%;
+}
+@media (max-width:1430px){
+  .top{
+    left: 14%;
+    top: 48%;
+  }
+}
+.service-page{
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+}
+.service-content{
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+
+}
+
+.mar{
+  padding-bottom: 5%;
+}
+.mar2{
+  padding-top: 5%;
+}
+.vector10{
+  width: 60px;
+  height: 60px;
+
+
+
+
+}
+
+
+.vector10-info{
+  width: 60%;
+
+  z-index: 0;
+}
+.bg-1{
+  background-color: rgba(13, 108, 129, 0.2);
+  color: rgba(13, 108, 129, 1);
+
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+.bg-2{
+  background-color: rgba(123, 97, 255, 0.2);
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+.bg-3{
+  background-color: rgba(222, 91, 18, 0.2);
+  border-radius: 5px;
+
+  padding: 10px 10px 10px 10px;
+}
+.bg-4{
+  background-color: rgba(51, 47, 208, 0.2);
+  border-radius: 5px;
+
+  padding: 10px 10px 10px 10px;
+}
+.bg-5{
+  background-color: rgba(167, 96, 255, 0.2);
+  border-radius: 5px;
+
+  padding: 10px 10px 10px 10px;
+}
+.bg-6{
+  background-color: rgba(35, 166, 240, 0.2);
+  border-radius: 5px;
+  
+  padding: 10px 10px 10px 10px;
+}
+.bg-7{
+  background-color: rgba(199, 72, 55, 0.2);
+  border-radius: 5px;
+
+  padding: 10px 10px 10px 10px;
+}
+.bg-8{
+  background-color: rgba(95, 208, 104, 0.2);
+  border-radius: 5px;
+
+  padding: 10px 10px 10px 10px;
+}
+.approch-section{
+  min-width:37%;
+  
+    padding-left: 30px;
+    padding-right: 8px;
+
+    background-color: #ffff;
+/* max-height: 100%; */
+  border-radius: 20px;
+  padding-bottom: 2%;
+  margin-left:0%;
+  margin-bottom: 8%;
+ color: rgba(38, 49, 98, 1);
+}
+.approch-title{
+  font-size: 20px;
+  font-weight: 700;
+  color:rgba(45, 42, 43, 1);
+  margin-top: 9%;
+  margin-bottom: 5%;
+  
+}
+.assure{
+  background-color: rgba(240, 103, 103, 0.2);
+  max-width: 100%;
+  height: 82px;
+  border-radius: 24px;
+ padding:3% 5% 3% 3%;
+}
+.service-arrow{
+  margin-top: 4%;
+}
+.approch-info{
+  max-width: 80%;
+  font-size: 17px;
+  font-weight: 400;
+  color:rgba(105, 110, 122, 1);
+  line-height: 30px;
+}
+
+.our-service{
+  background-color: rgba(248, 248, 248, 1);
+  padding-top: 6%;
+  margin-bottom: 2%;
+  padding-bottom: 16%;
+  
+  position: relative;
+}
+.dot,.dot2,.dot3,.dot4,.dot5{
+  position: absolute;
+  top: 86%;
+  z-index: 4;
+}
+/* .dot2{
+  top: 86.5%;
+}
+.dot3,.dot4{
+  top: 86.5%;
+}
+.dot5{
+  top: 85.7%;
+} */
+.dot-line{
+  position: absolute;
+  top: 89.5%;
+  border-top: 1.6px solid #E9E9E9;
+z-index: 1;
+  min-width: 46%;
+}
+.section-2{
+  padding-left: 3%;
+  margin-right: 0;
+  padding-top: 3%;
+  /* margin-bottom: 1%; */
+}

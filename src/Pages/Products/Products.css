@@ -1,0 +1,18 @@
+.products_body1{
+    position: relative;
+    top: 80px;
+}
+.product_individual_product{
+    position: absolute;
+        left: 6.67%;
+        right: 81.32%;
+        top: 4.89%;
+        bottom: 94.46%;  
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        color: #0F5A99;
+}
